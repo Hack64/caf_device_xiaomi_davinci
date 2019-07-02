@@ -56,6 +56,8 @@ public:
 
 private:
     sp<IXiaomiFingerprint> xiaomiFingerprintService;
+    std::mutex mCallbackLock;
+    sp<IFingerprintInscreenCallback> mCallback;
     android::base::unique_fd touch_fd_;
 };
 
