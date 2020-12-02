@@ -17,4 +17,7 @@
 <resources>
     <!-- The absolute side margins of quick settings -->
     <dimen name="rounded_corner_content_padding">8dp</dimen>
+
+    <!-- Bottom margin size when fingerprint in display is active -->
+    <dimen name="keyguard_indication_margin_bottom">30dp</dimen>
 </resources>
